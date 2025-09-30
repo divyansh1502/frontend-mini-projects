@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elem {
+  height: 120px;
+  width: 100%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative; /* important so img absolute is relative to this .elem */
+  padding-left: 20px;
+  overflow: hidden; /* keep the image inside the box */
+  background: rgba(255,255,255,0.02);
+}
+
+.elem h1 {
+  font-size: 2.2rem; /* use fixed rem or vw as you prefer */
+  position: relative;
+  z-index: 9;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+/* Avatar that follows cursor */
+.elem img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* centers on position */
+  opacity: 0;
+  transition: opacity 120ms linear, transform 80ms linear;
+  pointer-events: none; /* so it doesn't steal mouse events */
+  z-index: 10;
+}
