@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0s;
+}
+h1{
+    
+    font-size: 9vw;
+    font-family: 900;
+}
