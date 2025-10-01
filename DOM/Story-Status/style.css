@@ -7,3 +7,53 @@ html, body {
     height: 100%;
     width: 100%;
 }
+body {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    height: 580px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 4px solid black;
+    position: relative;
+    overflow: hidden;
+
+}
+#storiyan{
+    height: 120px;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    border: 2px solid red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#full-screen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
