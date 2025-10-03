@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #162119, #68be61);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-right img {
+    height: 150px;
+}
+.nav-right h3 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    letter-spacing: 1.4px;
+}
+.nav-menu {
+    display: flex;
+    margin-left: 200px;
+    gap: 55px;
+    
+}
+li {
+    color: white;
+    padding: 15px;
+    transition: all ease .2s;
+}
+
+.nav-menu li:hover {
+    border-bottom: 5px solid yellow;
+    color: yellow;
+    list-style: none;
+    border-radius: 5px;
+}
+.nav-left {
+    display: flex;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 100px;
+}
+.icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    
+}
+.icons i:nth-child(3) {
+    background-color: #0c3706e4;
+    height: 100px;
+    width: 100px;
+}
+.main {
+    display: flex;
+}
+.main-text{
+    color: white;
+    margin: 80px;
+    margin-left: 250px;
+}
+.main-text h6 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.main-text h1 {
+    font-size: 92px;
+    font-weight: 600;
+}
+.main-text p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.shop {
+    position: absolute;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 38px;
+    margin-left: 250px;
+    height: 55px;
+    width: 180px;
+    border-radius: 40px;
+    border: 3px solid rgb(255, 183, 0);
+    color: white;
+    font-size: 17px;
+    background-color: transparent;
+}
+.shop h4{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    margin-left: 15px;
+}
+.shop i {
+    background-color: #adff91;
+    padding: 16px;
+    border-radius: 50%;
+    color: #144a1d;
+}
+.main-left{
+    height: 500px;
+    width: 400px;
+    border-top-left-radius: 100px;
+    background-color: #adff91;
+    margin-left: 240px;
+    position: absolute;
+    left: 788px;
+    top: 120px;
+}
+.main-left img {
+    position: absolute;
+    height: 600px;
+    bottom: 0px;
+    right: 50px;
+}
+.footer {
+    position: relative;
+    display: flex;
+    margin-top: 90px;
+
+}
+.box {
+    display: flex;
+    height: 149px;
+    width: 1050px;
+    margin-left: 225px;
+    background-color: red;
+    border-top-left-radius: 40px;
+}
+.left {
+    display: flex;
+    background-color: rgb(255, 200, 0);
+    height: 149px;
+    width: 20%;
+    border-top-left-radius: 40px;
+}
+.left img {
+    height: 100px;
+    margin-top: 49px;
+}
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #35693d;
+    height: 149px;
+    width: 60%;
+}
+.mid h5{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #77aa72;
+    height: 149px;
+    width: 20%;
+}
+.right h4 {
+    color: white;
+    font-weight: 400;
+}
+.footer .credit{
+    color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+}
