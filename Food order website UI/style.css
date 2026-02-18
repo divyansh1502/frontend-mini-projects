@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url(image2.jpeg);
+}
+nav {
+    display: flex;
+    margin: 35px 85px;
+    align-items: center;
+    gap: 260px;
+    font-weight: 400;
+}
+#logo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    
+}
+#logo > img {
+    height: 80px;
+
+}
+ul {
+    display: flex;
+    gap: 35px;
+}
+li {
+    list-style: none;
+    font-weight: 600;
+}
+li:hover {
+    font-weight: 900;
+}
+#icon {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+#icon > i {
+    font-size: 18px;
+    font-weight: 800;
+}
+#btn {
+    display: flex;
+    gap: 15px;
+}
+.signin {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 22px;
+    border-radius: 125px;
+    background: transparent;
+}
+.signin > i {
+    font-size: 16px;
+    font-style: 800;
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 22px;
+    border-radius: 125px;
+    background-color: rgb(255, 49, 49);
+    border: none;
+}
+.login > i {
+    font-size: 16px;
+    font-style: 800;
+}
+.login:hover {
+    background-color: rgb(255, 244, 125);
+    transition: ease .3s;
+}
+#content {
+    margin: 80px 160px;
+    line-height: 1.5;
+}
+#content > h2 {
+    font-size: 58px;
+}
+#content > h4 {
+    font-size: 42px;
+}
+#content > p {
+    width: 400px;
+    font-size: 12px;
+}
+#price {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 4;
+}
+#price > p {
+    font-size: 20px;
+}
+#price > h5{
+    font-size: 20px;
+}
+main {
+    display: flex;
+}
+#salad > img {
+    height: 650px;
+}
+#button {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.items {
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buy {
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buy:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: ease .3s;
+}
+.buy > i {
+    padding: 6px;
+    background-color:  rgb(255, 42, 0);
+    border-radius: 50%;
+    color: black;
+}
